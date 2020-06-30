@@ -1,5 +1,16 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-logo{
+    width: 2.4em;
+    height: 2em;
+    margin-top: -5px;
+}
+
 /*********** Hero *************/
 
+/**jumbotron halaman home**/
 #jumbotron {
     margin-top: -23px;
     text-align: center;
@@ -14,7 +25,7 @@
 
 #jumbotron .layer {
     background-color: rgba(13, 13, 13, 0.75);
-    border-radius: 30px;
+    border-radius: 1em;
     width: 100%;
     height: 100%;
     padding-top: 1em;
@@ -22,6 +33,11 @@
     padding-left: 0.3em;
     padding-right: 0.3em;
 }
+
+#jumbotron img:hover{ 
+    top: -10px;
+    
+} 
 
 
 @media(min-width:992px){

@@ -34,7 +34,7 @@
                             <div class="card-body">
                                 <p class="book-type-description"> Koleksi Jurnal Ilmiah Universitas Bali Dwipa<p>
                             </div>
-                            <a href="#" class="btn btn-primary">Lihat Semua</a>
+                            <a href="#" class="btn btn-primary btn-block">Lihat Semua</a>
                         </div>
                     </div><!--end card-->
                 </div><!--end col-->
@@ -45,7 +45,7 @@
                             <div class="card-body">
                                 <p class="book-type-description"> Koleksi Jurnal Ilmiah Universitas Bali Dwipa<p>
                             </div>
-                            <a href="#" class="btn btn-primary">Lihat Semua</a>
+                            <a href="#" class="btn btn-primary btn-block">Lihat Semua</a>
                         </div>
                     </div><!--end card-->
                 </div><!--end col-->
@@ -56,7 +56,7 @@
                             <div class="card-body">
                                 <p class="book-type-description"> Koleksi Jurnal Ilmiah Universitas Bali Dwipa<p>
                             </div>
-                            <a href="#" class="btn btn-primary">Lihat Semua</a>
+                            <a href="#" class="btn btn-primary btn-block">Lihat Semua</a>
                         </div>
                     </div><!--end card-->
                 </div><!--end col-->
