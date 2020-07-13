@@ -18,7 +18,7 @@ body{
 }
 
 #jumbotron .jumbotron{
-    background-image: url(/resources/image/hero.jpg);
+    background-image: url(/resources/image/hero.png);
     background-size: cover;
     color: #ffffff;
 }
@@ -77,19 +77,28 @@ body{
 }
 
 #book-collection .book-collection-icon{
-    width: 44px;
-    height: 44px;
-    float: left;
+    width: 12em;
+    height: 12em;
+
     margin-right: 7px;
 }
 
 #book-collection .book-collection-type{
     font-size: 1.5em;
-    margin-top: 10px;
+    text-align: center;
 }
 
 #book-collection .book-type-description{
     font-size: 18;
     margin-top: -5px;
+    text-align: center;
 }
 /******* end books collection******/
+
+/**** footer ****/
+footer {
+    background-color: #fff;
+    color: black;
+    font-size: 13px;
+    padding-top: 3em;
+}

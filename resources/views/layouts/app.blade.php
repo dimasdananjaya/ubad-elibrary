@@ -76,6 +76,33 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer class="fdb-block footer-large">
+        <div class="container">
+            <div class="row text-center">
+            <div class="col">
+                <a style="color: black;" class="navbar-brand" href="#"><img src="{{ asset('resources/image/balidwipa.png') }}"
+                    class="navbar-logo" />Universitas Bali Dwipa
+                </a>
+                <p>Jalan Pulau Flores No.5<br>Denpasar, Bali 80114</p>
+                <p>Email : info@balidwipa.ac.id</p>
+                <p>Whatsapp : 085792463944</p>
+                <p>Phone : 081339827770</p>
+                <p><small>Icons and Pictures by: freepik.com and flaticon.com</small></p>
+            </div>
+            </div>
+
+            <div class="row mt-4">
+            <div class="col text-center">
+                <p class="lead">
+                <a href="https://www.facebook.com/ubadbali/" class="mx-2"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/universitasbalidwipa/" class="mx-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="mx-2"><i class="fab fa-google" aria-hidden="true"></i></a>
+                </p>
+            </div>
+            </div>
+        </div>
+        </footer>
     </div>
 </body>
 </html>

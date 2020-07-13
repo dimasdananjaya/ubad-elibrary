@@ -30,9 +30,12 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-head">
-                            <img class="book-collection-icon" src="/resources/image/academic.png"><p class="book-collection-type"><b>Jurnal Ilmiah</b></p>
+                            {{--<img class="book-collection-icon" src="{{ asset('resources/images/jurnal.svg') }}">
+                            <p class="book-collection-type"><b>Jurnal Ilmiah</b></p> --}}
+                            <img class="d-block mx-auto book-collection-icon" src="{{ asset('resources/image/jurnal.svg') }}">
+                            <p class="book-collection-type"><b>Jurnal Ilmiah</b></p>
                             <div class="card-body">
-                                <p class="book-type-description"> Koleksi Jurnal Ilmiah Universitas Bali Dwipa<p>
+                                <p class="book-type-description"> Koleksi Jurnal<p>
                             </div>
                             <a href="#" class="btn btn-primary btn-block">Lihat Semua</a>
                         </div>
@@ -41,9 +44,10 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-head">
-                            <img class="book-collection-icon" src="/resources/image/academic.png"><p class="book-collection-type"><b>Jurnal Ilmiah</b></p>
+                            <img class="d-block mx-auto book-collection-icon" src="{{ asset('resources/image/e-book.svg') }}">
+                            <p class="book-collection-type"><b>E-Book</b></p>
                             <div class="card-body">
-                                <p class="book-type-description"> Koleksi Jurnal Ilmiah Universitas Bali Dwipa<p>
+                                <p class="book-type-description"> Koleksi E-Book<p>
                             </div>
                             <a href="#" class="btn btn-primary btn-block">Lihat Semua</a>
                         </div>
@@ -52,9 +56,10 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-head">
-                            <img class="book-collection-icon" src="/resources/image/academic.png"><p class="book-collection-type"><b>Jurnal Ilmiah</b></p>
+                            <img class="d-block mx-auto book-collection-icon" src="{{ asset('resources/image/prosiding.svg') }}">
+                            <p class="book-collection-type"><b>Prosiding</b></p>
                             <div class="card-body">
-                                <p class="book-type-description"> Koleksi Jurnal Ilmiah Universitas Bali Dwipa<p>
+                                <p class="book-type-description"> Koleksi Prosiding<p>
                             </div>
                             <a href="#" class="btn btn-primary btn-block">Lihat Semua</a>
                         </div>
