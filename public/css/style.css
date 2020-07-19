@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
 
 .navbar-logo{
@@ -94,6 +95,51 @@ body{
     text-align: center;
 }
 /******* end books collection******/
+
+/********** search result ***********/
+#search-result{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#search-result .card-header{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #3b6978;
+    color: #fff;
+    border: none;
+
+    border-radius: 0.4em 0.4em 0em 0em;
+}
+
+#search-result .card{
+    border: none;
+    box-shadow: 2px 2px 4px 2px #e4e3e3;
+    border-radius: 0.4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#search-result .pdf-button{
+    background-color: #84a9ac;
+    color: #fff;
+    border: none;
+    width: 6em;
+}
+
+#search-result h2{
+    color: #14b1ab;
+}
+
+#search-result p{
+    color: #01a9b4;
+}
+
+#search-result img{
+    width: 20em;
+    height: 20em;
+}
+/********** end search result ***********/
 
 /**** footer ****/
 footer {

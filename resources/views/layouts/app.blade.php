@@ -77,6 +77,7 @@
             @yield('content')
         </main>
 
+        <hr>
         <footer class="fdb-block footer-large">
         <div class="container">
             <div class="row text-center">
