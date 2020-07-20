@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class SearchController extends Controller
 {
     public function searchResult(){
-        return view('pages.search-result');
+        return view('pages.visitor.search-result');
     }
 }

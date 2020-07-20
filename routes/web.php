@@ -21,3 +21,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/search-result', 'SearchController@searchResult')->name('search.result');
+
+
+Route::get('/admin-home', 'AdminController@adminHome')->name('admin.home');
