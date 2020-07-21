@@ -74,7 +74,7 @@ body{
     padding-right: 12px;
     padding-bottom: 12px;
     text-align: justify;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.73);
+    box-shadow: 0 0 4px rgba(135, 212, 197, 1);
 }
 
 #book-collection .book-collection-icon{
@@ -149,7 +149,7 @@ body{
 
 #admin-home .card{
     padding:1em;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 0 0 4px rgba(135, 212, 197, 1);
     
 }
 

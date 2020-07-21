@@ -24,3 +24,4 @@ Route::get('/search-result', 'SearchController@searchResult')->name('search.resu
 
 
 Route::get('/admin-home', 'AdminController@adminHome')->name('admin.home');
+Route::get('/kelola-koleksi', 'CollectionController@kelolaKoleksi')->name('admin.kelola-koleksi');
